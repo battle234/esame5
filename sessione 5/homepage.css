@@ -1,0 +1,74 @@
+.lente {
+  height: 20px;
+}
+
+.navbar-brand .brand-highlight {
+  color: #05ec11;
+}
+
+.conteinermain {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.carousel {
+  height: 500px;
+}
+.carousel .carousel-item {
+  height: 500px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.carousel .carousel-item img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: rgb(22, 21, 21);
+}
+
+.breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+  color: white;
+}
+
+.spaziocontainer {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 15px;
+}
+
+.listacontainer {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.listacontainer .immagine-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
+.listacontainer .immagine-container img {
+  width: 18%;
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+footer {
+  position: bottom;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  background-color: #343a40;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}/*# sourceMappingURL=homepage.css.map */
